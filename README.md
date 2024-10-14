@@ -1,8 +1,8 @@
-# Shamir secret sharing scheme to prevent inverting gradients attacks in Federated Learning
+# Shamir secret sharing scheme to prevent inverting gradient attacks in Federated Learning
 
-We are going to show that Shamir secret sharing scheme (SSSS) can prevent gradient invertion attacks in the context of federated learning and preserve privacy. We present a [python-notebook](https://github.com/RubenCohen/invertinggradients/blob/master/shamir_protect.ipynb) to illustrate the gradient inversion attack on a simple digit classification model and show that SSSS prevents these type of attacks.
+In the context of federated learning, privacy can be broken using gradient invertion attacks. We present a [python-notebook](https://github.com/RubenCohen/invertinggradients/blob/master/shamir_protect.ipynb) to illustrate a gradient inversion attack on a simple digit classification model and show that Shamir secret sharing scheme prevents these type of attacks.
 
-
+---------------------
 
 
 # Inverting Gradients - How easy is it to break Privacy in Federated Learning?
